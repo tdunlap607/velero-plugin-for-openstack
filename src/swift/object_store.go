@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tdunlap607/velero-plugin-for-openstack/src/utils"
 	"github.com/gophercloud/gophercloud/v2"
 	"github.com/gophercloud/gophercloud/v2/openstack"
 	"github.com/gophercloud/gophercloud/v2/openstack/objectstorage/v1/objects"
 	"github.com/sirupsen/logrus"
+	"github.com/tdunlap607/velero-plugin-for-openstack/src/utils"
 )
 
 // ObjectStore is swift type that holds client and log
